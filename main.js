@@ -1,4 +1,4 @@
-const prompt=require("prompt-sync")();
+// const prompt=require("prompt-sync")();
 // let k =Number(prompt("enter the number"))
 // let s= Number(prompt("enter the number"))
 //  let sum=(k+s)
@@ -411,18 +411,6 @@ const prompt=require("prompt-sync")();
 //     console.log("this is negative number");
 // }
 
-// let n= prompt("enter a number")
-// if(n=>0){
-//     if(n==0){
-//         console.log("this number is zero");
-//     }else{
-//         console.log("this is positive number");
-//     }
-// }else{
-//     console.log("this is negative mumber");
-// }
-
-
 
 // let a= prompt("enter a number")        
 // let b=a;
@@ -561,7 +549,7 @@ const prompt=require("prompt-sync")();
 //     }
 // }
 
-//26
+// 26
 
 // let m= prompt("enter the number");
 // let n= prompt("enter the number");
@@ -572,7 +560,7 @@ const prompt=require("prompt-sync")();
 // console.log(s);
 
 
-//25
+// 25
 
 // let a= prompt("enter a number")  
 // let b= prompt("enter a number")
@@ -587,7 +575,7 @@ const prompt=require("prompt-sync")();
 
 
 
-//28
+// 28
 
 // let a= prompt("enter a number")  
 // let c=0;
@@ -597,7 +585,7 @@ const prompt=require("prompt-sync")();
 // }
 // console.log(c);
 
-//24
+// 24
 
 // let a= prompt("enter a number")  
 // for(i=1; i<a; i++){
@@ -607,7 +595,7 @@ const prompt=require("prompt-sync")();
 // }
 
 
-//29
+// 29
 
 
 // let a= prompt("enter a number") 
@@ -621,7 +609,7 @@ const prompt=require("prompt-sync")();
 // console.log(kum);
 
 
-//31
+// 31
 
 // let a= prompt("enter a number")
 // let d=0;
@@ -634,7 +622,7 @@ const prompt=require("prompt-sync")();
 // console.log(r)
 
 
-//32
+// 32
 
 // let a =prompt("enter the number")
 // let c=0;
@@ -650,7 +638,7 @@ const prompt=require("prompt-sync")();
 // }
 
 
-//33
+// 33
 
 // let a =prompt("enter the number")
 // let b=a
@@ -710,13 +698,13 @@ const prompt=require("prompt-sync")();
 
 
 
-                  //array
+//                   array
 
 // let arr=[1,4,6,7,8];
 // numbers.splice(1,2)
 
 
-///Armstrong
+// /Armstrong
 
 // let  a = prompt("enter the number")
 // let b=a
@@ -800,7 +788,7 @@ const prompt=require("prompt-sync")();
 // totalbill=bill+(bill)*20/100
 // console.log(totalbill);
 
-//  
+ 
 
 // let a= prompt("Enter the number")
 // let k=0
@@ -1023,4 +1011,111 @@ const prompt=require("prompt-sync")();
 
 
 
+// let arr=[]
+// let length= Number(prompt("enter the number"))
+// for(i=0;i<length;i++){
+//     let ele=Number(prompt("eneter the element"))
+//     arr[i]=ele
+// }
+// while(arr>0){
+    
+// }
 
+// let a= Number(prompt("enter the number"))
+// let count=0
+// for(i=1; i<=a; i++){
+//     if(a%i==0){
+//         count=count+1
+//     }
+// }
+// if(count==2){
+//     console.log("its prime number");
+// }
+// else{
+//     console.log("its not prime number");
+// }
+
+
+// let arr1=[2,5,3,6,7]
+// let arr2=[2,6,0,1,8]
+// let c= arr1.concat(arr2)
+// for(i=0;i<c.length;i++){
+
+// }
+// console.log(c);
+
+// let b=Number(prompt("enter the number"))
+// let c=Number(prompt("enter the number"))
+// let d=Number(prompt("enter the number"))
+// console.log(Math.max(b,c,d));
+
+// let a= 1
+// let b= 2
+// let c= 3
+// a=b
+// b=c
+// c=a
+// console.log(a,b,c);
+
+
+// let a= Number(prompt("enter the number"))
+// let c=0
+// for(i=1; i<=a; i++){
+//     if(a%i==0){
+// c=c+1
+//     }
+// }
+// if(c==2){
+//     console.log("its a prime number");
+// }
+// else{
+//     console.log("its not a prime number");
+// }
+
+
+// let a= Number(prompt("enter the number"))
+// let b=a
+// let d=a
+// let c=0;
+// while(a>0){
+//     k=a%10
+//     c=c+1
+// a=Math.floor(a/10)
+// }
+//  let arm=0;
+// while(b>0){
+//    p= b%10
+//    arm= arm+p**c
+//    b=Math.floor(b/10)
+// }
+// if(arm==d){
+//     console.log("it is a armstrong  number");
+// }
+// else{
+//     console.log("its is not armstrong number");
+// }
+
+// let a= Number(prompt("enter the number"))
+// let p=a
+// let sur=0;
+// for(i=1; i<a; i++){
+//     if(a%i==0){
+// sur=sur+i
+//     }
+// }
+// if(sur==p){
+//     console.log("it is a perfect number");
+// }
+// else{
+//     console.log("its is not a perfect number");
+// }
+
+// let a= Number(prompt("enter the number"))
+// for(i=1; i<=10; i++){
+//     console.log(`${a}*${i}=${a*i}`);
+// }
+
+
+
+// let k="kaustubh"
+// console.log(k);
